@@ -1,0 +1,89 @@
+ <html>
+
+<head>
+
+<title> Hay kamu!!</title>
+
+<script type="text/javascript">
+
+flag=1
+
+function f1()
+
+{
+
+    alert("Makasih udah nerima aku")
+
+}
+
+function f()
+
+{
+
+    if(flag==1)
+
+        {
+
+            Bn.style.top=400
+
+            Bn.style.left=300
+
+            flag=2
+
+        }
+
+    else if(flag==2)
+
+        {
+
+            Bn.style.top=400
+
+            Bn.style.left=50
+
+            flag=3
+
+        }
+
+    else if(flag==3)
+
+        {
+
+            Bn.style.top=370
+
+            Bn.style.left=166
+
+            flag=1
+
+        }
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1> Hay kamu!!<h1>
+
+<img alt="EvilicaCell" src="https://scontent.fcgk18-2.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/81936571_2536737273248822_1591670104863539200_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=7aed08&efg=eyJpIjoidCJ9&_nc_eui2=AeH92ITdJHwGNq_xaKV_DJAJJ9zXm6ujACsn3Nebq6MAKxfhdbgn0xtIXLaeVoyIDibICaGZJdo1vf5IFIzNVxDB&_nc_ohc=_9O0YBjzryAAX8umTin&_nc_ht=scontent.fcgk18-2.fna&tp=14&oh=845c1ddd185aa42e6f03445ef82e80e5&oe=60AA35A7" height="200" />
+
+<h1 style="#">Mau ngga jadi temen aku?</h1>
+
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+
+height:210px;">
+
+<input type="button" value=" YA " onClick="f1()" />
+
+</div>
+
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+
+<input type="button" value=" TIDAK " onMouseOver="f()" />
+
+</div>
+
+</body>
+
+</html>
